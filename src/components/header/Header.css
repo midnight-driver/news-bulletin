@@ -1,0 +1,22 @@
+.head{
+    cursor: pointer;
+}
+.head .logo img{
+    width: 30rem;
+}
+header{
+    background-color:#000;
+    color:white
+}
+header list{
+    margin-right: 2rem;
+    transition: .5s;
+}
+header li a:hover{
+color: crimson;
+cursor: pointer;
+}
+header li a{
+    transition: .5s;
+    color:#fff
+}
