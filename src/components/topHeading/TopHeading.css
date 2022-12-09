@@ -1,0 +1,19 @@
+.topHeading{
+    margin-left: 5rem;
+    background-image: url('../../../public/images/title_pattern.png');
+    height: 3rem;
+    background-position: center;
+}
+.topHeading>h6{
+    font-weight: 400;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    height: 3rem;
+    width: 6rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}

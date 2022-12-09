@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import { hero } from "../../dummyData";
 import Card from './Card';
+import './hero.css'
 function Hero() {
     const [items, setitems] = useState(hero)
     return (

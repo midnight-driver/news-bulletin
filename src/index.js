@@ -1,7 +1,5 @@
 import React from 'react';
-// import App from './App';
 import { createRoot } from "react-dom/client";
-// import ReactDOM from "react-dom";
 import Home from './pages/home/Home';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Header from './components/header/Header'

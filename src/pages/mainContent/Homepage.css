@@ -1,0 +1,25 @@
+.homeContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.mainContent{
+    width: 75%;
+    /* background-color: cadetblue; */
+}
+.sideContent{
+    width: 23%;
+    /* background-color: rgb(209, 53, 92); */
+}
+@media screen and (max-width:768px){
+    .homeContainer{
+    flex-direction: column;
+}
+.mainContent{
+    width: 100%;
+}
+.sideContent{
+    width: 100%;
+    /* background-color: rgb(209, 53, 92); */
+}
+}

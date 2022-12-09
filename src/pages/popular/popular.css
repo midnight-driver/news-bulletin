@@ -1,0 +1,82 @@
+.popular .box{
+    background-color: white;
+    display: flex;
+    position: relative;
+    margin: 1.5rem 1.2rem 1.2rem 5rem;
+}
+.popular .images{
+    position: relative;
+    height: 15rem !important;
+}
+.popular img{
+    width: 100%!important;
+    height: 15rem !important;
+    object-fit: cover !important;
+}
+/* .items{
+    display: flex;
+    flex-direction: column;
+}
+
+.textRow{
+    display: flex;
+    flex-direction: column;
+} */
+
+.textRow>h1{
+    font-weight: bold;
+    padding: 1.5rem 0 0 1rem;
+    margin: 0;
+}
+.datePopular{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.commentPopular{
+    border-top: 1px solid rgb(218, 209, 209);
+    padding-left: 1rem;
+    margin-top: 0.7rem;
+}
+.catgeoryPopular{
+    /* background-color:rgb(71, 11, 71) ; */
+    color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: .5rem solid red;
+    width: 5rem;
+    background:linear-gradient(to right, red 50%,black 50%);
+    background-size: 200%, 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+.catgeoryPopular>span{
+    color:#fff;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+.catgeoryPopular:hover{
+    background-position: left bottom;
+}
+.catgeoryPopular span:hover{
+    color:#fff
+}
+.commentPopular .iLast, .datePopular .iLast{
+    width: 2.5rem;
+    color:red;
+    font-size: 1.1rem;
+}
+.commentPopular>label, .datePopular>label{
+font-size: 1.1rem;
+color:rgb(94, 84, 84)
+}
+.shadow{
+    box-shadow: 5px 10px 18px #888888
+}
+.titlePopular{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
