@@ -20,3 +20,10 @@ header li a{
     transition: .5s;
     color:#fff
 }
+@media screen and (max-width:768px){
+    .head .logo img{
+    width: 30rem;
+    margin-left: 0;
+  }
+  
+}

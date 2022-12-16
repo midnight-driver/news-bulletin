@@ -61,7 +61,7 @@
 }
 .hero .text {
   position: absolute;
-  bottom: 3rem;
+  bottom: 30px;
 }
 .hero .box:nth-child(1) h1 {
   font-size: 2rem;
@@ -78,3 +78,16 @@
 .hero .box:nth-child(3) .catgeory {
     background-color: rgb(97, 45, 128);
 }
+/* @media  screen and (max-width:768px){
+  .box .text {
+  position: absolute;
+  height: 10px;
+}
+.box .text .titleBg {
+  font-weight: 500;
+  font-weight: bold;
+  margin: 1rem, 0;
+  font-size: .5rem;
+  color: white;
+}
+} */
