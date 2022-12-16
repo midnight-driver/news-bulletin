@@ -1,14 +1,14 @@
 .homeContainer{
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .mainContent{
     width: 75%;
     /* background-color: cadetblue; */
 }
 .sideContent{
-    width: 23%;
+    width: 20%;
     /* background-color: rgb(209, 53, 92); */
 }
 @media screen and (max-width:768px){

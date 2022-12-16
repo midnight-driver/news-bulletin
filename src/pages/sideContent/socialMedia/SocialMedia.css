@@ -1,0 +1,27 @@
+.social .socBox{
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    color:#fff
+}
+.social .socBox .iLast{
+    margin-right: 1.8rem;
+}
+.social .socBox span{
+    font-weight: bold;
+}
+.social .socBox:nth-child(1){
+    background-color: #3b5998;
+}
+.social .socBox:nth-child(2){
+    background-color: red;
+}
+.social .socBox:nth-child(3){
+    background-color: rgb(49, 49, 196);
+}
+.social .socBox:nth-child(4){
+    background-color: #c32aa3;
+}
+.social .socBox:nth-child(5){
+    background-color: #ff0000;
+}

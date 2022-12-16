@@ -1,4 +1,5 @@
 import Head from './Head';
+
 import './Header.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -21,10 +22,10 @@ function Header() {
                 onClick={() => setNavbar(false)}
               >
                 <li>
-                  <Link to="/">Header</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/culture">Culture </Link>
+                  <Link to="/cult">Culture </Link>
                 </li>
                 <li>
                   <Link to="/pol">Politics</Link>

@@ -1,0 +1,24 @@
+.popularPost .box{
+   margin-left: 5rem;
+   margin-bottom: 3rem;
+}
+.popularPost img{
+    width: 100%;
+    height: 100%;
+
+}
+.items{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.textRow{
+    padding: 2rem;
+}
+.headTop{
+    width: 6rem;
+}
+@media screen and (max-width:768px){
+.popularPost .slick-next {
+    right: 0px;
+    display: none;
+}}

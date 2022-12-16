@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import Discover from '../../components/discover/Discover';
 import { hero } from "../../dummyData";
 import Card from './Card';
 import './hero.css'
@@ -12,7 +13,6 @@ function Hero() {
 return <Card key={item.id} item={item}/>
                 })}
             </div>
-            
         </section>
         </>
     )

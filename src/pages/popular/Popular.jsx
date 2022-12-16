@@ -36,7 +36,7 @@ export default function Popular() {
   };
  
     return (
-      <>
+      <div>
         <div className="popular">
           <TopHeading title="Popular" />
           <div className="content">
@@ -77,7 +77,7 @@ export default function Popular() {
             </Slider>
           </div>
         </div>
-      </>
+      </div>
     );
 }
 

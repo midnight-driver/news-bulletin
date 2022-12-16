@@ -13,6 +13,11 @@
     height: 15rem !important;
     object-fit: cover !important;
 }
+@media screen and (max-width:768px){
+.popular .slick-next {
+    right: 0px;
+    display: none;
+}}
 /* .items{
     display: flex;
     flex-direction: column;
